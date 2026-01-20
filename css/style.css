@@ -1232,6 +1232,19 @@ a:hover {
     .hero-content {
         padding-top: 20px;
     }
+
+    .hero-title {
+        margin-bottom: 20px;
+        line-height: 1;
+    }
+
+    .hero-name {
+        line-height: 1.03;
+    }
+
+    .hero-ampersand {
+        margin: 3px 0;
+    }
     
     .hero-date {
         text-align: center;
@@ -1324,6 +1337,16 @@ a:hover {
     
     .hero-name {
         font-size: 2.2rem;
+        line-height: 1.04;
+    }
+
+    .hero-title {
+        margin-bottom: 15px;
+        line-height: 1;
+    }
+
+    .hero-ampersand {
+        margin: 1px 0;
     }
     
     .hero-date {
