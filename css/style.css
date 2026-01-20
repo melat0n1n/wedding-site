@@ -1220,7 +1220,7 @@ a:hover {
     }
 
     body {
-        line-height: 1.2;
+        line-height: 1.1;
     }
     
     .hero-flowers {
@@ -1304,6 +1304,10 @@ a:hover {
 }
 
 @media (max-width: 480px) {
+    body {
+        line-height: 1.05;
+    }
+
     .hero-subtitle {
         font-size: 0.85rem;
         letter-spacing: 0.15em;
