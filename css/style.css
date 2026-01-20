@@ -1218,6 +1218,10 @@ a:hover {
     :root {
         --section-padding: 70px;
     }
+
+    body {
+        line-height: 1.2;
+    }
     
     .hero-flowers {
         height: 45%;
@@ -1232,8 +1236,9 @@ a:hover {
     .hero-date {
         text-align: center;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
+        gap: 12px;
     }
     
     .hero-countdown {
@@ -1318,8 +1323,8 @@ a:hover {
     }
     
     .hero-date {
-        flex-direction: column;
-        gap: 0;
+        flex-direction: row;
+        gap: 10px;
         text-align: center;
         align-items: center;
         width: 100%;
@@ -1330,7 +1335,7 @@ a:hover {
     .hero-date-year {
         display: block;
         text-align: center;
-        line-height: 1.1;
+        line-height: 1;
     }
     
     .hero-countdown {
